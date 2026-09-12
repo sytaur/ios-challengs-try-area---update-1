@@ -115,7 +115,7 @@ struct ContentView: View {
                 .font(.title)
                 .padding()
                 .background(Color.blue)
-                .cornerRadius(10)
+                .cornerRadius(9)
             
             
             
