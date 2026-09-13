@@ -54,20 +54,20 @@ struct ContentView: View {
                                 if count >= 60{
                                     Text("Train your pokemon now")
                                     if count >= 70{
-                                        Text("Totally a rare pokemon")
+                                        Text("A rare pokemon")
                                         Image(systemName: "sparkles")
                                         if count >= 80{
-                                            Text(".... thats the like i don't know, the 8th pokemon")
+                                            Text("thats 8th pokemon")
                                             if count >= 90{
                                                 Text("is there a mass population of pokemon?")
                                                 if count >= 100{
                                                     Text("You better tame this pokemon")
                                                     if count >= 110{
-                                                        Text("Evil pokemon")
+                                                        Text("cool pokemon")
                                                         if count >= 120{
-                                                            Text("ready to take on the chmapion battles?")
+                                                            Text("ready to take on the champion battles?")
                                                             if count >= 130{
-                                                                Text("AGAIN?!??!?!??")
+                                                                Text("Amazing")
                                                                 if count >= 140{
                                                                     Text("Thats a strong pokemon")
                                                                     if count >= 150{
