@@ -10,10 +10,11 @@ struct ContentView: View {
                 Image("c")
                     .resizable()
                     .frame(width: 300, height: 300)
+                Text("Scroll down to see the pokemon you collected")
                 Image(systemName: "globe")
                     .imageScale(.large)
                     .foregroundStyle(.tint)
-                Text("The clicker game!")
+                Text("The Pokemon clicker game!")
                     .font(.largeTitle)
                     .fontWeight(.bold)
                     .foregroundStyle(.yellow)
@@ -25,12 +26,7 @@ struct ContentView: View {
                         .foregroundStyle(Color.red)
                     Button("+"){ count += 1}
                         .foregroundStyle(Color.blue)
-                    Button("CHEAT"){count = 100}
-                        .foregroundStyle(Color.orange)
-                    Button("+++++"){count += 5}
-                        .foregroundStyle(Color.black)
-                    Button("------"){count -= 5}
-                        .foregroundStyle(Color.yellow)
+                    
                     Button("Reset"){count = 0}
                         .foregroundStyle(Color.purple)
                     
@@ -39,37 +35,52 @@ struct ContentView: View {
                 
             }
             
-            if count >= 10{
+            if count >= 15{
                 Text("You got a pokemon")
                 Image(systemName: "bolt.fill")
-                if count >= 20{
+                Image ("Charmander")
+                if count >= 25{
                     Text("Wow another one?")
-                    if count >= 30{
+                    Image ("Caterpie")
+                    if count >= 35{
                         Text("Why are there so many pokemon today...")
-                        if count >= 40{
+                        Image ("Rattata")
+                        if count >= 45{
                             Text("Thats a strong one")
-                            if count >= 50{
+                            Image ("Dragonite")
+                            if count >= 55{
                                 Text("Prof Oak is stunned")
                                 Image(systemName:"eye.fill")
-                                if count >= 60{
+                                Image("Mew")
+                                if count >= 65{
                                     Text("Train your pokemon now")
-                                    if count >= 70{
+                                    Image("Champ")
+                                    if count >= 75{
                                         Text("A rare pokemon")
                                         Image(systemName: "sparkles")
-                                        if count >= 80{
-                                            Text("thats 8th pokemon")
-                                            if count >= 90{
+                                        Image("Snor")
+                                        if count >= 85{
+                                            Text("thats the 8th pokemon")
+                                            Image("Pory")
+                                            if count >= 95{
                                                 Text("is there a mass population of pokemon?")
+                                                Image("P")
                                                 if count >= 100{
                                                     Text("You better tame this pokemon")
+                                                    Image("A")
                                                     if count >= 110{
                                                         Text("cool pokemon")
+                                   Image("S")
                                                         if count >= 120{
                                                             Text("ready to take on the champion battles?")
+                                                            Image("c")
                                                             if count >= 130{
                                                                 Text("Amazing")
+                                                                Image("Char")
+                                                                
                                                                 if count >= 140{
                                                                     Text("Thats a strong pokemon")
+                                                                    Image("Zap")
                                                                     if count >= 150{
                                                                         Text("FINAL BOSS")
                                                                             .bold()
